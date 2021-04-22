@@ -40,6 +40,7 @@ img {
 .container {
     width: 1170px;
     margin: 0 auto;
+    /* overflow: hidden; */
 }
 
 
@@ -292,7 +293,6 @@ h3 {
     font-size: 24px;
     color: #353535;
     text-align: center;
-    /* padding-bottom: 40px; */
 }
 
 h3 .line {
@@ -463,28 +463,15 @@ h3 .line .l {
     width: 370px;
 }
 
-.p4 {
-    padding-bottom: 50px;
-}
-
-.p4 .shots {
-    position: relative;
-}
-
-.p4 .shots .screens {
-    margin: 30px 0;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+.p4 .shots img {
+    padding-left: 183px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .p4 .shots .icons {
-    position: absolute;
-    top: 440px;
-    left: 50%;
-    transform: translateX(-50%);
-    padding-bottom: 60px;
+    padding-bottom: 40px;
+    padding-left: 510px;
 }
 
 .p4 .shots .icons i {
@@ -501,7 +488,6 @@ h3 .line .l {
 }
 
 .p5 {
-    padding-top: 460px;
     padding-bottom: 50px;
 }
 
@@ -511,7 +497,6 @@ h3 .line .l {
 
 .p5 .watch {
     background: url(../images/video.png) no-repeat center / cover;
-    /* height: 500px; */
     position: relative;
     padding-top: 220px;
     padding-bottom: 220px;
@@ -672,7 +657,6 @@ h3 .line .l {
 .p7 .team .member {
     text-align: center;
     width: 370px;
-    /* border: 1px solid #f1f1f1; */
     border-radius: 15px 15px 10px 10px;
     box-sizing: border-box;
     position: relative;
@@ -814,7 +798,6 @@ h3 .line .l {
 
 .p8 .user {
     background: url(../images/user.png) no-repeat center / cover;
-    /* height: 550px; */
     position: relative;
     z-index: 1;
 }
@@ -892,13 +875,6 @@ h3 .line .l {
     transition: all ease-in-out 0.8s;
 }
 
-
-/* .p8 .user .feed .one:hover .pic {
-    height: 150px;
-    width: 150px;
-    top: 420px;
-} */
-
 .p8 .user .feed .one:hover .pic img {
     height: 150px;
     width: 150px;
@@ -931,7 +907,7 @@ h3 .line .l {
     border-radius: 15px;
     position: absolute;
     top: 25%;
-    left: -8.5%;
+    left: 0;
     opacity: 0;
     visibility: hidden;
     transition: all ease-in 0.5s;
@@ -956,10 +932,9 @@ h3 .line .l {
     border-radius: 15px;
     position: absolute;
     top: 25%;
-    left: 870px;
+    left: 370px;
     opacity: 0;
     visibility: hidden;
-    transform: translatex(-50%);
     transition: all ease-in 0.5s;
 }
 
@@ -1010,7 +985,29 @@ h3 .line .l {
     background: #f1f1f1;
     position: absolute;
     bottom: -9px;
+    left: 301px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.p8 .user .feed .two .comment .shape {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: -9px;
     left: 400px;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+.p8 .user .feed .three .comment .shape {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background: #f1f1f1;
+    position: absolute;
+    bottom: -9px;
+    left: 501px;
     transform: translateX(-50%) rotate(45deg);
 }
 
