@@ -437,8 +437,8 @@ h3 .line .l {
     background: var(--cl1);
 }
 
-.p3 .feature .cont .screen {
-    margin-left: 100px;
+.p3 .feature .cont .screen img {
+    padding-left: 115px;
     margin-top: -30px;
 }
 
