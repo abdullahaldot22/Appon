@@ -251,14 +251,14 @@ img {
     background: #fff;
 }
 
-.bg .cont {
+.bg {
     position: relative;
 }
 
 .bg .cont .slide {
     position: absolute;
     top: 50%;
-    right: -7%;
+    right: 2%;
     transform: translateY(-50%);
 }
 
