@@ -35,6 +35,12 @@ img {
 
 .full-wrapper {
     width: 100%;
+/*
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+*/
 }
 
 .container {
@@ -1077,6 +1083,7 @@ h3 .line .l {
     font-size: 14px;
     line-height: 40px;
     color: #555555;
+    resize: none;
     padding-left: 10px;
     box-sizing: border-box;
     transition: all linear 0.3s;
